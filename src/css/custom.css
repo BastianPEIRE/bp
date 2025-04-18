@@ -28,7 +28,6 @@
   --ifm-color-primary-lightest: #70a4fb;
 }
 
-
 ul {
   list-style: none;
   padding: 0;
@@ -39,8 +38,6 @@ li, p, h3 {
   padding: 0;
   margin: 0;
 }
-
-
 
 .list-cards {
   width: 100%;
