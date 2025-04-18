@@ -46,7 +46,6 @@ li, p, h3 {
   width: 100%;
   display: flex;
   gap: 1.5rem;
-  text-align: left;
 }
 
 @media (max-width: 768px) {
