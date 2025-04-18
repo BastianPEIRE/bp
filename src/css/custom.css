@@ -27,3 +27,34 @@
   --ifm-color-primary-lighter: #488bf9;
   --ifm-color-primary-lightest: #70a4fb;
 }
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.list-cards {
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .list-cards {
+    flex-direction: column;
+  }
+}
+
+.card {
+  width: 100%;
+  background-color: #8383831a;
+  border-radius: 5px;
+  padding: 1rem;
+}
