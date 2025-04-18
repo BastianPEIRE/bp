@@ -33,8 +33,9 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />"
+    >
       <HomepageHeader />
       <main style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
         <div style={{width: "75vw"}}>
@@ -73,11 +74,6 @@ export default function Home() {
                 <li>Real-world scenarios and solutions.</li>
                 <li>Personal notes, experiments, and mistakes — unfiltered.</li>
               </ul>
-            </div>
-
-            <div>
-              <h2>🧩 Latest Posts</h2>
-              <p>(Coming soon... stay tuned!)</p>
             </div>
           </section>
         </div>

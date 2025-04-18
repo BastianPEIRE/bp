@@ -35,15 +35,18 @@ ul {
   margin: 0;
 }
 
-li {
+li, p, h3 {
   padding: 0;
   margin: 0;
 }
+
+
 
 .list-cards {
   width: 100%;
   display: flex;
   gap: 1.5rem;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
