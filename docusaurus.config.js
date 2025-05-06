@@ -77,7 +77,7 @@ const config = {
         title: 'Bastian PEIRE',
         items: [
           {
-            to: '/bp/blog', 
+            to: '/bp/blog/', 
             label: 'Blog', 
             position: 'left'
           },
@@ -92,24 +92,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Documentation',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Github',
-                href: 'https://x.com/docusaurus',
+                href: 'https://x.com/bsp__v',
               },
             ],
           },
@@ -118,7 +105,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: 'bp/blog/',
+                to: '/blog/',
               },
               {
                 label: 'GitHub',
