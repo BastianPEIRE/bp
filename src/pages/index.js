@@ -1,21 +1,17 @@
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import Heading from '@theme/Heading';
-import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container" style={{display: "flex", flexDirection: "column", gap: "2rem"}}>
-        <Heading as="h1" className="hero__title" style={{ color: "white", margin: "0"}}>
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle"  style={{ color: "white"}}>{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+    <header className='bg-blue-500'>
+      <div>
+        <h1>{siteConfig.title}</h1>
+        <p style={{ color: "white"}}>{siteConfig.tagline}</p>
+        <div>
           <Link
             className="button button--secondary button--lg"
             to="/bp/blog"
@@ -36,21 +32,21 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <main style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
-        <div style={{width: "75vw"}}>
-          <section style={{textAlign: "center", display: "flex", flexDirection: "column", gap: "3rem", paddingTop: "4rem", paddingBottom: "4rem"}}>
+      <main>
+        <div>
+          <section>
             <div>
               <h2>What This Blog Covers</h2>
-              <ul className='list-cards'>
-                <li className='card'>
+              <ul>
+                <li>
                   <h3>DevOps</h3>
                   <p>CI/CD, Infrastructure as Code, Monitoring, Scaling</p>
                 </li>
-                <li className='card'>
+                <li>
                   <h3>Backend</h3>
                   <p>API design, NestJS, microservices, databases</p>
                 </li>
-                <li className='card'>
+                <li>
                   <h3>Career Growth</h3>
                   <p>Certifications, setups, workflows</p>
                 </li>
